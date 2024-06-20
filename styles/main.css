@@ -1,0 +1,292 @@
+.circle {
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  background-color: #f5f8fa;
+  background-image: -webkit-radial-gradient(#f5f8fa, #c5d0e3);
+  background-image: radial-gradient(#f5f8fa, #c5d0e3);
+  position: absolute;
+  z-index: -1;
+  top: -400px;
+  right: -450px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 0 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 260px;
+  position: relative;
+}
+
+.image-sm-container {
+  display: none;
+}
+
+.image-pc {
+  height: 600px;
+  border-radius: 50%;
+}
+
+.hero p {
+  color: #758398;
+}
+
+.greet {
+  margin-bottom: 15px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.hero hr {
+  width: 50px;
+  margin-bottom: 67px;
+  margin-left: 0;
+  border: 1px solid #758398;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.role {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.fa-envelope,
+.fa-x-twitter {
+  margin-right: 20px;
+  color: white;
+  background-color: #009bdf;
+  font-size: 15px;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.email {
+  margin-bottom: 10px;
+}
+
+.email a,
+.x a {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+}
+
+.about {
+  margin-bottom: 260px;
+}
+
+.about h2 {
+  color: #009bdf;
+  margin-bottom: 24px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.main-description {
+  font-size: 54px;
+  margin-bottom: 130px;
+  font-weight: bold;
+}
+
+.sub-description-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-description-title {
+  font-size: 38px;
+  width: 420px;
+  color: #009bdf;
+  font-weight: bold;
+}
+
+.sub-description-content-container {
+  width: 574px;
+  line-height: 31px;
+}
+
+.sub-description-content1 {
+  margin-bottom: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.sub-description-content2 {
+  color: #78869b;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.skills-section h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.skills {
+  flex: 1;
+}
+
+.skills label {
+  display: block;
+  color: #758398;
+  margin-bottom: 5px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 17px;
+}
+
+.skills progress {
+  height: 17px;
+  width: 455px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+::-webkit-progress-bar {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+::-webkit-progress-value {
+  border-radius: 10px;
+  background-color: #009add;
+}
+
+::-moz-progress-bar {
+  border-radius: 10px;
+  background-color: #009add;
+}
+
+.skills li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.html-css p,
+.typescript p,
+.react p {
+  position: absolute;
+  top: 25px;
+  color: white;
+  font-size: 10px;
+  background-color: #009add;
+  height: 17px;
+  padding-top: 2px;
+  padding-right: 10px;
+  border-radius: 3px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+}
+
+.html-css p {
+  left: 293px;
+}
+
+.typescript p {
+  left: 338px;
+}
+
+.react p {
+  left: 384px;
+}
+
+.experience {
+  flex: 1;
+}
+
+.experience li {
+  display: flex;
+  margin-bottom: 42px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.experience-title {
+  width: 110px;
+  text-align: right;
+  margin-right: 40px;
+  position: relative;
+}
+
+.experience-title hr {
+  border: 0.2px solid #dce4ee;
+  margin-bottom: 14px;
+}
+
+.experience-title-year {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.fa-circle-chevron-right {
+  position: absolute;
+  top: 21px;
+  font-size: 16px;
+}
+
+.experience-title-company {
+  color: #758398;
+  margin-right: 10px;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.experience-content {
+  width: 395px;
+  padding-top: 17px;
+}
+
+.experience-content-role {
+  font-size: 26px;
+  color: #009bdf;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.experience-content-detail {
+  line-height: 28px;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.portfolio-section {
+  padding-bottom: 140px;
+}
+
+.portfolio-section h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.portfolio-section ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 22px;
+}
+
+.portfolio-section img {
+  border-radius: 3px;
+}
